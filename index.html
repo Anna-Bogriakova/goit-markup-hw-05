@@ -495,18 +495,25 @@
           <p class="footer-text-two">Subscribe</p>
           <label class="form-footer-label" for="email"></label>
           <div class="footer-input-container">
-          <input
-            class="footer-input"
-            type="email"
-            name="email"
-            placeholder="E-mail"
-            required
-          />
-          <button class="footer-button" type="button">Subscribe
-            <svg class="footer-button-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg>
-          </button>
+            <form class="footer-forfm">
+              <label class="footer-label" for="email"
+                >E-mail
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+                <button class="footer-button" type="submit">
+                  Subscribe
+                  <svg class="footer-button-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </label>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -515,56 +522,56 @@
     <div class="modal-overlay">
       <div class="modal">
         <p>Leave your contacts and we will call you back</p>
-        
+
         <!-- sample -->
+
         <form class="modal-form">
           <label class="form-label" for="username">Name</label>
           <div class="modal-input-container">
-              <input
-            class="modal-input"
-            type="text"
-            id="username"
-            required
-          />
-          <svg class="modal-icon" width="18" height="18">
-            <use href=""></use>
-          </svg>
-        </div>
+            <input class="modal-input" type="text" id="username" required />
+            <svg class="modal-icon" width="18" height="18">
+              <use href=""></use>
+            </svg>
+          </div>
           <label class="form-label" for="tel">Phone</label>
           <div class="modal-input-container">
             <input
-            class="modal-input"
-            id="tel"
-            name="tel"
-            type="text"
-            required
-          />
-          <svg class="modal-icon" width="18" height="18">
-            <use href=""></use>
-          </svg>
-        </div>
-        
+              class="modal-input"
+              id="tel"
+              name="tel"
+              type="text"
+              required
+            />
+            <svg class="modal-icon" width="18" height="18">
+              <use href=""></use>
+            </svg>
+          </div>
+
           <label class="form-label" for="email">Email</label>
           <div class="modal-input-container">
-          <input
-            class="modal-input"
-            type="email"
-            id="email"
-            required
-          />
-          <svg class="modal-icon" width="18" height="18">
-            <use href=""></use>
-          </svg>
-        </div>
-        
-          <label class="form-label" name="username">Comment
-            <textarea class="modal-text" name="text-comment" rows="5" placeholder="Text input" required></textarea>
-      </label>
-          <button class="modal-button" type="button">Send
+            <input class="modal-input" type="email" id="email" required />
+            <svg class="modal-icon" width="18" height="18">
+              <use href=""></use>
+            </svg>
+          </div>
+
+          <label class="form-label" for="text-comment"
+            >Comment
+            <textarea
+              class="modal-text"
+              id="text-comment"
+              rows="5"
+              placeholder="Text input"
+              required
+            ></textarea>
+          </label>
+          <button class="modal-button" type="button">
+            Send
             <svg class="" width="24" height="24">
               <use href=""></use>
             </svg>
           </button>
+        </form>
       </div>
     </div>
   </body>
