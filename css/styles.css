@@ -802,6 +802,12 @@ textarea {
 }
 
 /* checkbox */
+.checkbox:checked + .text-checkbox .custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .checkbox:checked + .text-checkbox .custom-checkbox svg {
   fill: #ffffff;
 }
@@ -859,7 +865,7 @@ textarea {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
-  display: flex; /* Изменено с block на flex */
+  display: block;
   align-items: center; /* Выравнивание по вертикали */
   justify-content: center; /* Выравнивание по горизонтали */
 
