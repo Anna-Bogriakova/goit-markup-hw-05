@@ -847,7 +847,7 @@ textarea {
 }
 
 .custom-checkbox {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 20px;
@@ -856,7 +856,7 @@ textarea {
   border-radius: 4px;
   transition: all 0.3s ease;
   cursor: pointer;
-  display: inline-flex;
+  d\
 }
 
 .visually-hidden:checked + .text-checkbox .custom-checkbox {
