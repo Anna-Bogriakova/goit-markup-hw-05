@@ -839,7 +839,6 @@ textarea {
 }
 
 .text-checkbox {
-  display: flex;
   align-items: center;
   gap: 8px;
   font-size: 14px;
